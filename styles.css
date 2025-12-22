@@ -1,0 +1,36 @@
+/* Align toggle button below the Hugging Face logo */
+#top-bar {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 100;
+}
+
+/* Style toggle button */
+#history-toggle {
+    padding: 6px 12px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Prompt box & Generate button layout */
+#prompt-box, #generated-image {
+    width: 100%;
+    max-width: 100%;
+}
+
+#generate-btn {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#sidebar {
+    background-color: #1e1e1e;
+    padding: 12px;
+    border-left: 2px solid #444;
+    height: 100%;
+}
