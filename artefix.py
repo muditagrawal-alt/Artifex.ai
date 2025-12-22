@@ -7,7 +7,7 @@ import base64
 from IPython.display import display
 
 #CONFIGURING THE API FROM STABILITY.AI:
-API_KEY = "sk-tKQbaZNPSrCINZV4kmEsIvGL3iNAjiwNIiu0c0uDTKRTOM12"
+API_KEY = "USE_YOUR_API_KEY_HERE"
 url_template = "https://api.stability.ai/v1/generation/{engine_id}/text-to-image"
 
 headers = {
